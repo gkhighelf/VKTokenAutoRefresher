@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="token_update_enabled"
+        android:title="@string/pref_title_token_update_enabled"
+        android:defaultValue="@string/pref_default_token_update_enabled"/>
+
+    <EditTextPreference
+        android:key="app_id"
+        android:title="@string/pref_title_app_id"
+        android:contentDescription="@string/pref_description_app_id"
+        android:defaultValue="@string/pref_default_app_id"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="callback_url"
+        android:title="@string/pref_title_callback_url"
+        android:contentDescription="@string/pref_description_callback_url"
+        android:defaultValue="@string/pref_default_callback_url"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="update_interval"
+        android:title="@string/pref_title_update_interval"
+        android:contentDescription="@string/pref_description_update_interval"
+        android:defaultValue="@string/pref_default_update_interval"
+        android:selectAllOnFocus="true"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:maxLines="1" />
+</PreferenceScreen>

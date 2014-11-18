@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VK Token Auto Refresher</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_title_app_id">VK application id</string>
+    <string name="pref_title_callback_url">Callback url</string>
+    <string name="pref_title_update_interval">Token refresh interval</string>
+
+    <string name="pref_description_app_id">Your VK.com application id</string>
+    <string name="pref_description_callback_url">\?token=%token% will be added to this url automatically</string>
+    <string name="pref_description_update_interval">Refresh interval in minutes</string>
+
+    <string name="pref_default_app_id"></string>
+    <string name="pref_default_callback_url"></string>
+    <string name="pref_default_update_interval">360</string>
+    <string name="pref_title_token_update_enabled">Token auto update enabled</string>
+    <string name="pref_default_token_update_enabled">false</string>
+</resources>
