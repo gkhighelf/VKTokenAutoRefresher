@@ -43,7 +43,7 @@ public class RefreshVkTokenActivity extends Activity {
                 setContentView(R.layout.activity_refresh_vk_token);
                 _webView = (WebView) findViewById(R.id.refresherWebView);
                 _webView.loadUrl("https://oauth.vk.com/authorize?client_id=" + vk_app_id +
-                        "&scope=video,email,profile&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token");
+                        "&scope=video,email,profile,offline&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token");
                 final Boolean finalStarted_by_alarm_manager = started_by_alarm_manager;
                 _webView.setWebViewClient(new WebViewClient() {
                     @Override
